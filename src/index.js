@@ -7,6 +7,8 @@ ReactDOM.render(
   <Router>
     <Switch>
       <Route path='/' exact component={Home} />
+      <Route path='/work' exact component={Home} />
+      <Route path='/tools' exact component={Home} />
     </Switch>
   </Router>,
   document.querySelector("#root")

@@ -1,0 +1,27 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 155px;
+  height: 55px;
+  background: #0336ff;
+  border-radius: 29px;
+  outline-style: none;
+  border: none;
+}
+
+.button-container:hover {
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+}
+
+.button-text {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "open sans";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}

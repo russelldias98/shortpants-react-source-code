@@ -8,3 +8,14 @@ body {
   margin: 0 auto;
   background-color: #ffffff;
 }
+
+.logo {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "open sans";
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
