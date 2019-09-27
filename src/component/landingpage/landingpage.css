@@ -23,8 +23,9 @@
 
 .landing-page-container-inner-right {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   height: 80%;
   flex: 1;
 }
