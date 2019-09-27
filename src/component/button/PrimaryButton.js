@@ -1,12 +1,20 @@
 import React from "react";
+import { Link, withRouter } from "react-router-dom";
 import "./primarybutton.css";
 
 const PrimaryButton = props => {
   return (
-    <button type='submit' className='button-container'>
-      <div className='button-text'>{props.text}</div>
-    </button>
+    <Link
+      to='/contact'
+      style={{
+        textDecoration: "none",
+      }}
+    >
+      <button type='submit' className='button-container'>
+        <div className='button-text'>{props.text}</div>
+      </button>
+    </Link>
   );
 };
 
-export default PrimaryButton;
+export default withRouter(PrimaryButton);

@@ -11,6 +11,10 @@
 }
 
 .button-container:hover {
+  cursor: pointer;
+}
+
+.button-container:hover {
   box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
   transition: 0.5s;
 }

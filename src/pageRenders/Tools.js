@@ -1,8 +1,7 @@
 import React from "react";
 import Header from "../component/header/Header";
-import LandingPage from "../component/landingpage/LandingPage";
 
-class Home extends React.Component {
+class Tools extends React.Component {
   constructor() {
     super();
 
@@ -13,10 +12,9 @@ class Home extends React.Component {
     return (
       <>
         <Header />
-        <LandingPage />
       </>
     );
   }
 }
 
-export default Home;
+export default Tools;
