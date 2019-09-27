@@ -15,7 +15,9 @@ class Header extends React.Component {
     return (
       <div className='header-container'>
         <div className='header-container-inner'>
-          <div className='logo'>Russell Dias</div>
+          <Link to='/' className='logo'>
+            Russell Dias
+          </Link>
           <div className='right-nav'>
             <Link to='/' className={`page ${window.location.pathname === "/" ? "selected" : ""}`}>
               Home
