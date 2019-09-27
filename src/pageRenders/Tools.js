@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../component/header/Header";
+import ToolsNav from "../component/toolsnav/ToolsNav";
 
 class Tools extends React.Component {
   constructor() {
@@ -11,7 +11,7 @@ class Tools extends React.Component {
   render() {
     return (
       <>
-        <Header />
+        <ToolsNav />
       </>
     );
   }

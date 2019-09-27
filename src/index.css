@@ -23,7 +23,7 @@ body {
 
 h1 {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "open sans";
-  font-weight: bold;
+  font-weight: 800;
   font-size: 64px;
   line-height: 132.5%;
   color: #0336ff;
@@ -35,4 +35,30 @@ h1 {
   font-size: 24px;
   line-height: 132.5%;
   color: #000000;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 155px;
+  height: 55px;
+  background: #0336ff;
+  border-radius: 29px;
+  outline-style: none;
+  border: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "open sans";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.button:hover {
+  cursor: pointer;
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
 }

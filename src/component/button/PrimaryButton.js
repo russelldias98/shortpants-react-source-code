@@ -7,10 +7,10 @@ const PrimaryButton = props => {
     <Link
       to='/contact'
       style={{
-        textDecoration: "none",
+        textDecoration: "none"
       }}
     >
-      <button type='submit' className='button-container'>
+      <button type='button' className='button-container'>
         <div className='button-text'>{props.text}</div>
       </button>
     </Link>
