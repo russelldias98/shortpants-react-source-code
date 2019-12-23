@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pageRenders/Home";
 import Work from "./pageRenders/Work";
 import Tools from "./pageRenders/Tools";
-import Contact from "./pageRenders/contact";
+import ContactUs from "./pageRenders/contact";
 
 ReactDOM.render(
   <Router>
@@ -12,7 +12,7 @@ ReactDOM.render(
       <Route path='/' exact component={Home} />
       <Route path='/work' exact component={Work} />
       <Route path='/tools' exact component={Tools} />
-      <Route path='/contact' exact component={Contact} />
+      <Route path='/contact' exact component={ContactUs} />
     </Switch>
   </Router>,
   document.querySelector("#root")
